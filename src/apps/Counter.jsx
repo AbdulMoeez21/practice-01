@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const CounterApp = () => {
+const Counter = () => {
 
 
 const [counter, setCounter] = useState(5)
@@ -35,4 +35,4 @@ const removeValue=()=>{
   )
 }
 
-export default CounterApp
+export default Counter

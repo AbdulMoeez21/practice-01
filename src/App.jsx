@@ -1,16 +1,19 @@
-import CounterApp from "./CounterApp"
+import React, { useState } from "react";
 import './App.css'
+
+import Counter from "./apps/Counter"
 
 
 function App() {
- 
+  const [type, settype] = useState("Counter");
 
-  return (
- <>
-   <CounterApp/>
-    </>
 
-  )
+     if (type == "Counter") {
+    return <Counter />;
+  }
+  
+
+
 }
 
 export default App
