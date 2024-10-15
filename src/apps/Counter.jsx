@@ -29,7 +29,7 @@ const removeValue=()=>{
     <>
     <h1>Counter:  {counter} </h1>
 
-<button onClick={addValue}>Add Value</button>
+<button className='' onClick={addValue}>Add Value</button>
 <button onClick={removeValue}>Remove Value </button>
 </>
   )
